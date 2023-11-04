@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-04T13:53:38 IST" name="Default suite" finished-at="2023-11-04T13:55:00 IST" duration-ms="82461">
+    <groups>
+    </groups>
+    <test started-at="2023-11-04T13:53:38 IST" name="Default test" finished-at="2023-11-04T13:55:00 IST" duration-ms="82461">
+      <class name="org.ExtentReportListner1.ExtentRep">
+        <test-method is-config="true" signature="reportSetup()[pri:0, instance:org.ExtentReportListner1.ExtentRep@3a6bb9bf]" started-at="2023-11-04T13:53:38 IST" name="reportSetup" finished-at="2023-11-04T13:53:38 IST" duration-ms="137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method is-config="true" signature="reportTeardown()[pri:0, instance:org.ExtentReportListner1.ExtentRep@3a6bb9bf]" started-at="2023-11-04T13:55:00 IST" name="reportTeardown" finished-at="2023-11-04T13:55:01 IST" duration-ms="161" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportTeardown -->
+      </class> <!-- org.ExtentReportListner1.ExtentRep -->
+      <class name="org.TestScenarioStaff.TS01_TC01_Login_PreLoginRegistrationValidation">
+        <test-method is-config="true" signature="InitiateDriver()[pri:0, instance:org.TestScenarioStaff.TS01_TC01_Login_PreLoginRegistrationValidation@5fd4f8f5]" started-at="2023-11-04T13:53:38 IST" name="InitiateDriver" finished-at="2023-11-04T13:54:40 IST" duration-ms="62417" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitiateDriver -->
+        <test-method signature="TC01_PreLoginValidation()[pri:0, instance:org.TestScenarioStaff.TS01_TC01_Login_PreLoginRegistrationValidation@5fd4f8f5]" started-at="2023-11-04T13:54:40 IST" name="TC01_PreLoginValidation" finished-at="2023-11-04T13:55:00 IST" duration-ms="20015" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.TestScenarioStaff.TS01_TC01_Login_PreLoginRegistrationValidation.TC01_PreLoginValidation(TS01_TC01_Login_PreLoginRegistrationValidation.java:28)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC01_PreLoginValidation -->
+      </class> <!-- org.TestScenarioStaff.TS01_TC01_Login_PreLoginRegistrationValidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
